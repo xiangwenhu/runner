@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>程序员快跑</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>	
+
+	<div id="content">
+		<div id="left">
+			操作说明：<br/>
+			R:重新开始  P:暂停<br/>
+			C:继续游戏  J:跳跃
+		</div>
+		<div id="sounds">
+			<!-- <audio id='soundtrack'   controls="controls">  -->
+			<audio id='skip' controls="controls"> 
+        		<source src='sounds/skip.mp3' type='audio/mp3'>         		
+        	</audio>    
+		</div>
+		<div>
+			<canvas id="programerRun" height="600" width="1000"></canvas>
+		</div>		
+	</div>
+	<script type="text/javascript" src="js/utils.js"></script>
+	<script type="text/javascript" src="js/baseDraw.js"></script>	
+	<script type="text/javascript" src="js/messager.js"></script>
+	<script type="text/javascript" src="js/sounder.js"></script>
+	<script type="text/javascript" src="js/rectFactory.js"></script>
+	<script type="text/javascript" src="js/runnner.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
